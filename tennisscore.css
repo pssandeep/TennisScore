@@ -1,0 +1,28 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+table.tablecenter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+td.gameactive,
+td.active {
+    background-color: black;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid black;
+    height: 50px;
+    text-align: center
+}

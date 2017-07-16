@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title> TENNIS SCORE </title>
+    <link href="tennisscore.css" rel=stylesheet type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|EB+Garamond|Josefin+Sans|Nunito:600|Quicksand|Varela+Round" rel="stylesheet"> </head>
+
+<body>
+    <div class="container">
+        <H1 class="center">TENNIS SCORE</H1>
+        <div class="center">
+            <button id="btnplayer1">PLAYER 1</button>
+            <button id="btnplayer2">PLAYER 2</button>
+        </div>
+        <div>
+            <table class="tablecenter">
+                <thead>
+                    <tr>
+                        <th>Players</th>
+                        <th> Set 1</th>
+                        <th> Set 2</th>
+                        <th> Set 3</th>
+                        <th> Set 4</th>
+                        <th> Set 5</th>
+                        <th> Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="player1">Roger Federer</td>
+                        <td id="set1" class="active">0</td>
+                        <td id="set2"></td>
+                        <td id="set3"></td>
+                        <td id="set4"></td>
+                        <td id="set5"></td>
+                        <td id="gamescore1" class="gameactive">30</td>
+                    </tr>
+                    <tr>
+                        <td id="player2">Rafael Nadal</td>
+                        <td id="set1" class="active">0</td>
+                        <td id="set2"></td>
+                        <td id="set3"></td>
+                        <td id="set4"></td>
+                        <td id="set5"></td>
+                        <td id="gamescore2" class="gameactive">0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 id="gametext">
+            </h2>
+            <h2 id="gametext2">
+            </h2>
+            <h2 id="gametext3">
+            </h2></div>
+    </div>
+    <script src="tennisscore.js" type="text/javascript"></script>
+</body>
+
+</html>
